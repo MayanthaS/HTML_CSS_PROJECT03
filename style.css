@@ -1,5 +1,5 @@
 .header{/*Header*/
-    background-color: blue;
+    background-color: rgb(2, 2, 125);
     color: white;
     overflow: hidden;
 
@@ -24,4 +24,15 @@
     opacity: 0.9;
     border-radius: 5px;
     margin: 2px;
+}
+.content{
+    background: url(./image/image.avif);
+    overflow: hidden;
+    color: antiquewhite;
+}
+.ser{
+    background-color: darkblue;
+    overflow: hidden;
+    display: block;
+
 }
