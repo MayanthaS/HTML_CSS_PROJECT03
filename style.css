@@ -1,9 +1,20 @@
 .header{/*Header*/
     background-color: blue;
     color: white;
+    overflow: hidden;
 
 
 }
 .logo{
+     float: left;
     text-transform: uppercase;
+}
+.nav{
+   float: right;
+}
+.nav li{
+    float: left;
+   list-style: none;
+   padding: 15px;
+ 
 }
