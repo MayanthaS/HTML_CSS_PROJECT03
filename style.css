@@ -47,27 +47,55 @@
     overflow: hidden;
 }
 .contact{
-    margin: 5px;
+    background-color:  rgb(1, 1, 86);
+    opacity: 0.4;
+    padding: 10px;
+    overflow: hidden;
 }
 .main{
     float: left;
-    width: 70%;
+    width: 60%;
 }
 .aside{
     float: right;
-    width: 30%;
-    
+    width: 40%;    
+}
+input{
+    border-radius: 5px; 
+    display: block;
+    padding: 5px;
+    margin: 2px;
     
 }
-.social-media {
-    margin: 0;
-    padding: 0;
+.social-med{
+    background-color:  rgb(1, 1, 86);
+    overflow: hidden;
+   
 }
-
-.social-media li{
+.social-med ul{
+     text-align: center;
+}
+.social-med li{
     list-style: none;
-    display:inline;
-    
+    color: white;
+    display: inline;
+    margin: 10px;
+  
+}
+.social-med li:hover{
+    background-color: darkblue;
+    color: black;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 10px;
    
 }
 
+.footer {
+    text-align: center;
+    background-color: darkblue;
+    padding: 10px;
+    opacity: 0.8;
+    
+  
+}
