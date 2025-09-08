@@ -46,15 +46,28 @@
     color: white;
     overflow: hidden;
 }
+.contact{
+    margin: 5px;
+}
 .main{
     float: left;
-    width: 50%;
-  
-
+    width: 70%;
 }
 .aside{
     float: right;
-    width: 50%;
+    width: 30%;
     
+    
+}
+.social-media {
+    margin: 0;
+    padding: 0;
+}
+
+.social-media li{
+    list-style: none;
+    display:inline;
+    
+   
 }
 
